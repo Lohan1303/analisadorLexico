@@ -6,9 +6,9 @@ public class AnalisadorLexico {
 
     public static void main(String[] args) {
 
-        String expressao = "x = 10; y == x;";
+        String expressao = "x1 = 10; y2 == x;";
 
-        Pattern regexIdentificador = Pattern.compile("[A-Za-z]+");
+        Pattern regexIdentificador = Pattern.compile("[A-Za-z]+[0-9]*");
         Pattern regexNumero = Pattern.compile("[0-9]+");
         Pattern regexPontoVirgula = Pattern.compile(";");
         Pattern regexOperadorRelacional = Pattern.compile(">|<|>=|<=|==|!=");
