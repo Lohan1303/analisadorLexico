@@ -6,7 +6,7 @@ Este projeto é uma implementação simples de um analisador léxico em Java. El
 
 ## Funcionalidades
 
-- **Identificação de Tokens**: O analisador reconhece identificadores, números, operadores relacionais (`>`, `<`, `>=`, `<=`, `==`, `!=`), operadores de atribuição (`=`) e pontos e vírgulas (`;`).
+- **Identificação de Tokens**: O analisador reconhece identificadores, números, operadores relacionais (`>`, `<`, `>=`, `<=`, `==`, `!=`), operadores de atribuição (`=`) e pontos-vírgulas (`;`).
 - **Tokenização**: Divide a expressão em tokens usando espaços e ponto e vírgula como delimitadores.
 - **Verificação de Tokens**: Verifica se cada token está de acordo com os padrões definidos e garante que a expressão seja válida.
 
