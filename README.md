@@ -25,7 +25,7 @@ This project is a simple implementation of a lexical analyzer in Java. It is des
 - **Token Verification**: Checks if each token adheres to the defined patterns and ensures that the expression is valid.
 
 <br><br>
-## Automato para o analisador lexico // Automaton for the Lexical Analyzer
+## Automato para o analisador léxico // Automaton for the Lexical Analyzer
 
 ![Automato do Analisador Léxico](src/main/java/br/com/fesa/analisadorlexico/images/AFD_Lexico.png)
 
